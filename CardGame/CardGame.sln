@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deck", "Deck\Deck.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckTester", "DeckTester\DeckTester.csproj", "{98BBC26B-D3BE-4849-B089-262B563B3ECB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckDemo", "DeckDemo\DeckDemo.csproj", "{3A7EB6CE-4529-4969-A615-4080C50BB27A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFishDeck", "GoFishDeck\GoFishDeck.csproj", "{9015DBBD-245C-44F2-8855-9EC24FA01246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{98BBC26B-D3BE-4849-B089-262B563B3ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98BBC26B-D3BE-4849-B089-262B563B3ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98BBC26B-D3BE-4849-B089-262B563B3ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7EB6CE-4529-4969-A615-4080C50BB27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7EB6CE-4529-4969-A615-4080C50BB27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7EB6CE-4529-4969-A615-4080C50BB27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7EB6CE-4529-4969-A615-4080C50BB27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9015DBBD-245C-44F2-8855-9EC24FA01246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9015DBBD-245C-44F2-8855-9EC24FA01246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9015DBBD-245C-44F2-8855-9EC24FA01246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9015DBBD-245C-44F2-8855-9EC24FA01246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

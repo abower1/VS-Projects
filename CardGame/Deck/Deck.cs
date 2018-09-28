@@ -32,6 +32,11 @@ namespace DeckUtilities
             
         }
 
+        public bool DeckIsEmpty()
+        {
+            return CardsInDeck.Count == 0;
+        }
+
         /// <summary>
         /// Adds discard pile to cards in deck and shuffles the deck
         /// </summary>
@@ -57,8 +62,13 @@ namespace DeckUtilities
         {
             int numDealt = 0;
             List<Card> retVal = new List<Card>();
+            if(numCards > CardsInDeck.Count)
+            {
+                shuffle();
+            }
             for(int idx = 0; idx < CardsInDeck.Count && numDealt < numCards; idx++)
             {
+
                 Card currentCard = CardsInDeck[idx];
                 if (currentCard.isInDeck())
                 {
