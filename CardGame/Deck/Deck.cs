@@ -58,7 +58,7 @@ namespace DeckUtilities
         /// </summary>
         /// <param name="numCards">Number of cards to be dealt</param>
         /// <returns>List of cards dealt out</returns>
-        public IEnumerable<Card> Deal(int numCards)
+        public IEnumerable<Card> draw(int numCards)
         {
             int numDealt = 0;
             List<Card> retVal = new List<Card>();

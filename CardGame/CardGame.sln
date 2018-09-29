@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckDemo", "DeckDemo\DeckDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFishDeck", "GoFishDeck\GoFishDeck.csproj", "{9015DBBD-245C-44F2-8855-9EC24FA01246}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFishGame", "GoFishGame\GoFishGame.csproj", "{8D8C11EA-E8A2-452D-99DF-E35D3784EF3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9015DBBD-245C-44F2-8855-9EC24FA01246}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9015DBBD-245C-44F2-8855-9EC24FA01246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9015DBBD-245C-44F2-8855-9EC24FA01246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8C11EA-E8A2-452D-99DF-E35D3784EF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8C11EA-E8A2-452D-99DF-E35D3784EF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8C11EA-E8A2-452D-99DF-E35D3784EF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8C11EA-E8A2-452D-99DF-E35D3784EF3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

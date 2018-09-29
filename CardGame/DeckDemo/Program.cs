@@ -14,7 +14,7 @@ namespace DeckDemo
             Deck d = new Deck();
             for(int counter = 0; counter <= 100; counter++)
             {
-                List<Card> hand = d.Deal(5).ToList();
+                List<Card> hand = d.draw(5).ToList();
                 Console.WriteLine("Hand: " + (counter + 1));
                 foreach (Card c in hand)
                 {

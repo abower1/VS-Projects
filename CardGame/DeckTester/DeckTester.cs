@@ -13,7 +13,7 @@ namespace DeckTester
         public void TestDeal()
         {
             Deck d = new Deck();
-            List<Card> hand = d.Deal(5).ToList();
+            List<Card> hand = d.draw(5).ToList();
             List<String> cardsInDeck = d.printableCardsInDeck().ToList();
 
             foreach(Card c in hand)
@@ -26,7 +26,7 @@ namespace DeckTester
         public void TestDiscard()
         {
             Deck d = new Deck();
-            List<Card> hand = d.Deal(5).ToList();
+            List<Card> hand = d.draw(5).ToList();
             d.Discard(hand);
             List<String> discardPile = d.printableDiscard().ToList();
             foreach (Card c in hand)
